@@ -6,9 +6,9 @@
 
 using namespace std;
 
-int main(){
+int main() {
 
-   // Declara un vector de cadenas
+	// Declara un vector de cadenas
 	vector<string>aves = { " Loro gris", " Paloma de diamante", " Coctel" };
 	cout << "\n";
 	cout << " - Los valores del vector antes de insertar: \n";
@@ -35,5 +35,3 @@ int main(){
 	cout << "\n";
 	return 0;
 }
-
-
