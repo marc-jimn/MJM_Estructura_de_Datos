@@ -7,7 +7,7 @@
 
 using namespace std;
 
-int main(){
+int main() {
 
 	const int capacidad = 10;
 	vector<int>elementos(capacidad);
@@ -25,7 +25,7 @@ int main(){
 		try {
 			x = std::stoi(entrada); // Convertimos de cadena string a enteros
 			if (cima < capacidad - 1) {
-				cima ++;
+				cima++;
 				elementos[cima] = x;
 			}
 			else {
