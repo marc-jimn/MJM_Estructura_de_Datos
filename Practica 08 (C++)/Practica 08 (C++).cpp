@@ -57,6 +57,7 @@ int main() {
 
 	// Imprimir elementos de la cola en el orden en que fueron ingresados
 	cout << " Elementos de la cola en el orden de ingreso: " << endl;
+	cout << " ";
 	for (int i = frente + 1; i <= final; i = (i + 1) % MaxTamC) {
 		cout << A[i] << " ";
 	}
