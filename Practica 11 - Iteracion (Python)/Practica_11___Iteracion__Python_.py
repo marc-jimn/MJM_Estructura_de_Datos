@@ -1,7 +1,7 @@
 # Marcela Jimenez Mendez
 
 num = 0
-i = 1
+i = 0
 t = 1
 resul = 0
 
